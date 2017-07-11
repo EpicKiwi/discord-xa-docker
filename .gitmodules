@@ -1,0 +1,3 @@
+[submodule "discord-xa"]
+	path = discord-xa
+	url = https://github.com/EpicKiwi/discord-xa.git
