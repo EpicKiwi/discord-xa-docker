@@ -16,6 +16,7 @@ RUN apt-get install yasm nasm \
                 checkinstall -y
 
 RUN cd /tmp && \
+    mkdir /usr/share/ffmpeg -p && \
     git clone git://git.videolan.org/ffmpeg.git && \
     cd ffmpeg && \
     ./configure --prefix=/usr && \
